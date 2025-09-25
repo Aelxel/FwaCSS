@@ -1,0 +1,60 @@
+[data-author-id="287221820069773312"] {
+    font-family: 'Minecraft', sans-serif;
+    background-color: #222232;
+
+    [class*="username"] {
+        background: linear-gradient(to right, #ff77e8, #a000f7, #ff77e8);
+        background-size: 200% auto;
+        color: transparent !important;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-weight: bold;
+    }
+
+    [class*="message"] {
+    font-size: 16px;
+    letter-spacing: 0px;
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 0px;
+
+    background-image: 
+        linear-gradient(to right,rgba(12, 2, 31, 0.685) 35%,rgba(20, 7, 54, 0.185) 65%, rgba(48, 0, 161, 0)),
+        url('https://i.ibb.co/qLwrXFFy/nasia-m-Cyw-Qn-Qqdp-X4-unsplasha.jpg');
+    background-repeat: repeat;
+    background-size: 100%, 40%;   
+    background-position: right;
+    background-attachment:scroll, fixed;
+
+    border-left: 4px solid hsl(273, 100%, 55%);
+    }
+
+    [class*="messageContent"] {
+        &:before {
+            content: "^.✧.^ ฅ ";
+            color: #00c6f7;
+        }
+                background: transparent !important;
+        color: #aa2aff;
+        border: none;
+        border-radius: 0px;
+    }
+
+    [class*="systemMessage"] [class*="messageContent"]:before {
+        content: "";
+    }
+
+    [class*="spoilerContent"] {
+        background-color: #ffffff;
+    }
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('https://keetavir.neocities.org/MinecraftRegular-Bmg3.otf') format('opentype');
+
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
