@@ -3,7 +3,7 @@
     background-color: #222232;
 
     [class*="username"] {
-        background: linear-gradient(to right, #ff77e8, #a000f7, #ff77e8);
+        background: linear-gradient(to right, #ff1dc7 , #a000f7, #ff1dc7);
         background-size: 200% auto;
         color: transparent !important;
         -webkit-background-clip: text;
@@ -46,7 +46,7 @@
     }
 
     [class*="spoilerContent"] {
-        background-color: #ffffff;
+        background-color: #1b0172;
     }
 }
 
