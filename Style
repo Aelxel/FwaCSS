@@ -58,3 +58,14 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Minecrafter';
+    src: url('https://keetavir.neocities.org/MinecraftTen.otf');
+}
+[data-author-id="287221820069773312"] {
+    h1 {
+        font-family: 'Minecrafter';
+        font-size: 60px;
+    }
+}
